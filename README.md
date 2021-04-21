@@ -44,9 +44,9 @@ Local database credentials can be configured using environment files. On the fir
 Copy the following files and update anything you'd like to customise:
 
 ```
-cp drupal.env.sample drupal.env
-cp drupal-db.env.sample drupal-db.env
-cp hub-frontend.env.sample hub-frontend.env
+cp prisoner-content-hub-backend.env.sample prisoner-content-hub-backend.env
+cp prisoner-content-hub-backend-db.env.sample prisoner-content-hub-backend-db.env
+cp prisoner-content-hub-frontend.env.sample prisoner-content-hub-frontend.env
 ```
 
 ### Running the services:

@@ -4,7 +4,7 @@ services:
   prisoner-content-hub-backend-db:
     image: mariadb
     env_file:
-      - drupal-db.env
+      - prisoner-content-hub-backend-db.env
     volumes:
       - drupal_db_data:/var/lib/mysql/
       - ./drupal-db/:/docker-entrypoint-initdb.d/
@@ -19,7 +19,7 @@ services:
       - prisoner-content-hub-backend-db
       - prisoner-content-hub-elasticsearch
     env_file:
-      - drupal.env
+      - prisoner-content-hub-backend.env
     ports:
       - 11001:8080
     networks:
@@ -31,7 +31,7 @@ services:
       - prisoner-content-hub-backend
       - prisoner-content-hub-elasticsearch
     env_file:
-      - hub-frontend.env
+      - prisoner-content-hub-frontend.env
     ports:
       - 3000:3000
     networks:
