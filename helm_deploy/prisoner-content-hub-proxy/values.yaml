@@ -46,6 +46,7 @@ ingress:
     cloudplatform-live1-2: "3.8.51.207/32"
     cloudplatform-live1-3: "35.177.252.54/32"
     moj-official: "51.149.250.0/24"
+    moj-official-globalprotect-alpha: "35.176.93.186/32"
     ark-data-center-1: "62.25.109.197/32"
     ark-data-center-2: "195.92.38.16/28"
     ark-data-center-3: "195.59.75.0/24"
